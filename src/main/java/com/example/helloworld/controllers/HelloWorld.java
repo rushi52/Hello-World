@@ -12,7 +12,7 @@ class HelloWorld {
     @GetMapping
     public  String helloWorld()
     {
-        return helloWorldService.printHelloWorld().toString();
+        return helloWorldService.printHelloWorld();
 
 
     }
